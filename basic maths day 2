@@ -1,0 +1,20 @@
+Tower of Hanoi 
+The Tower of Hanoi is a mathematical puzzle that involves moving disks from one peg to another. It's also known as the Tower of Brahma, the problem of Benares Temple, or Lucas' Tower. 
+
+How to play
+Start with all the disks stacked on one peg, from largest to smallest. 
+Move the disks one at a time. 
+Only move the top disk from a stack. 
+Don't put a larger disk on top of a smaller disk. 
+Move all the disks to one of the other pegs. 
+
+History
+The puzzle was invented in 1883 by French mathematician Édouard Lucas. He was inspired by a legend about a Hindu temple where priests were given the task of moving 64 gold disks. 
+
+How to solve
+The Tower of Hanoi puzzle can be solved using recursion. Recursion is a process where a function calls itself directly or indirectly.
+
+Q: Two lines x1 --> x2 and x3 --> x4, print True, if overlapping or touching otherwise print False
+ans: def are_overlapping(x1, x2, x3, x4):
+    # Write your logic
+    return True or False
