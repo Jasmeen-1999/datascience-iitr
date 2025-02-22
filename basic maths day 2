@@ -18,3 +18,19 @@ Q: Two lines x1 --> x2 and x3 --> x4, print True, if overlapping or touching oth
 ans: def are_overlapping(x1, x2, x3, x4):
     # Write your logic
     return True or False
+Ans:def are_overlapping(x1, x2, x3, x4):
+        mx1 = max(x1,x2)
+        mn1 = min(x1,x2)
+        mx2 = max(x3,x4)
+        mn2 = min(x3,x4)
+        line1 = list(range(mn1,mx1+1))
+        line2 = list(range(mn2,mx2+1))
+        new_list = []
+        for element in line1:
+            if element in line2:
+                new_list.append(element)
+        print(new_list)
+        if new_list == []:
+            return False
+        else:
+            return True
