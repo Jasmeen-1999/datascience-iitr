@@ -37,14 +37,27 @@ ans: 1. Split the number into multiples of M.
      2. replace M with the value N.
      3. solve to get the final value.
 
-Q8. Write your own algorithm or strategy to find log10. You can use 10**x.
-ans:    
-       for i in range (n):
-           N = 10 ** n
-           print (N)
-           if value < N:
-              n = n + 1
-           else:
-              r = 10 ** n.5
+  
+       
            
-     
+ Q: In base 10, how many numbers can you represent in 5 digits?
+
+0 to 99999 A: 10**5
+
+Q: In base 7, how many numbers can you represent in 5 digits?
+
+A: 7**5
+
+Q: In base B, how many numbers can you represent in d digits?
+
+A: B**d
+ 
+ 
+ Q: To represent number up to 9999 in base10, how many digits do you need?
+
+A: Four 
+Note: we are representing total 10000 numbers
+
+Q: To represent N numbers, how many digits do we need in base 10?
+
+A: log10(N)   
